@@ -1,0 +1,15 @@
+stages:
+  - test
+
+before_script:  
+  - npm ci  
+
+test-api:
+  stage: test
+  script:
+    - echo Run API tests   
+    - npm run api_test
+  artifacts:
+    when: always
+    paths:
+      - mochawesome-report 

@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "index.js",
+  "scripts": {
+    "api_test": "mocha tests/specs/api/*.spec.js --timeout 40000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com/hannamarhunova/api.git"
+  },
+  "author": "hannah.morgunova@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hannamarhunova/api/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^1.7.2",
+    "mocha": "^10.6.0",
+    "chai": "^5.1.1",
+    "mochawesome": "^7.1.3"
+  }
+}
